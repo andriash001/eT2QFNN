@@ -4,7 +4,7 @@ clear
 close all
 
 %% LOAD THE DATA
-load databj.mat                 %The matrix format is as follows: data = [X Y]
+load databj.mat                 %The matrix format is as follows: data = [X,Y]
 N = length(data);               %number of observation
 training_data = round(0.7*N);   %the number of training data, 70%.
 I = 2;                          %number of input
