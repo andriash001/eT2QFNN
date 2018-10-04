@@ -62,7 +62,7 @@ nrule = zeros(N,1);
 nrule(1,1) = K;
 x=data(:,1:I);
 z=data(:,(I+1):mn);
-ns=round(0.5*I);
+ns=round(0.5*I);                                %number of quantum interval, it is user-defined parameter
 if ns == 1
     ns = 2;
 end
@@ -154,7 +154,6 @@ index = 1;
 for k = 1:N
     %% create hypothetical rule
     if k <= fix_themodel
-        
         m(:,K+1) = x(k,:)';
         sigma_up (:,:,K+1) = diag(diag((x(k,:)-center')'*(x(k,:)-center')));
         sigma_low(:,:,K+1) = 0.7*sigma_up (:,:,K+1);
