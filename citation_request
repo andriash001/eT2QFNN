@@ -1,19 +1,18 @@
 Please if you use the code for any purpose,  include the provided references and acknowledge the corresponding author.
 
-@article{DBLP:journals/corr/abs-1805-07715,
-  author    = {Andri Ashfahani and
-               Mahardhika Pratama and
-               Edwin Lughofer and
-               Qing Cai and
-               Huang Sheng},
-  title     = {An Online {RFID} Localization in the Manufacturing Shopfloor},
-  journal   = {CoRR},
-  volume    = {abs/1805.07715},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1805.07715},
-  archivePrefix = {arXiv},
-  eprint    = {1805.07715},
-  timestamp = {Mon, 13 Aug 2018 16:47:53 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1805-07715},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@Inbook{et2qfnn,
+author="Ashfahani, Andri
+and Pratama, Mahardhika
+and Lughofer, Edwin
+and Cai, Qing
+and Sheng, Huang",
+editor="Lughofer, Edwin
+and Sayed-Mouchaweh, Moamar",
+title="An Online RFID Localization in the Manufacturing Shopfloor",
+bookTitle="Predictive Maintenance in Dynamic Systems: Advanced Methods, Decision Support Tools and Real-World Applications",
+year="2019",
+publisher="Springer International Publishing",
+pages="287--309",
+isbn="978-3-030-05645-2",
+doi="10.1007/978-3-030-05645-2_10",
 }
